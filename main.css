@@ -1,0 +1,91 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background-color: #F8E475;
+}
+
+.navbar a {
+    color: #333333;
+    text-decoration: none;
+}
+
+#home {
+    background-image: linear-gradient(#F8E475, #F4DD5B);
+}
+
+#saudacao h3 {
+    font-size: 48px;
+    font-weight: 300;
+}
+
+#saudacao img {
+    width: 54px;
+    height: 54px;
+}
+
+#descricao h1,
+#projetos h1,
+#artigos h1 {
+    font-size: 72px;
+    font-weight: 900;
+}
+
+#descricao h2 {
+    font-size: 64px;
+    font-weight: 300;
+}
+
+#botao button {
+    background-color: transparent;
+    width: 335px;
+    min-height: 90px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#projetos .card .card-header {
+    font-size: 32px;
+    font-weight: 500;
+    background-color: #EEEEEE;
+}
+
+#projetos .card .card-body,
+#artigos .card .card-body {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+#projetos .card .card-tags p {
+    font-size: 20px;
+    font-weight: 300;
+    white-space: nowrap;
+    background-color: #EEEEEE;
+}
+
+#projetos .card .card-footer .btn,
+#artigos .card .card-footer .btn {
+    font-size: 24px;
+    font-weight: 300;
+    color: #000;
+    background-color: #F8E475;
+}
+
+#artigos {
+    background-color: #EEEEEE;
+}
+
+#artigos .card .card-body h4 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+#artigos .card .card-body img {
+    max-width: 90%;
+}
+
+#artigos .card .card-footer {
+    background-color: #fff;
+    border-top: none;;
+}
