@@ -2,11 +2,13 @@
     font-family: 'Lato', sans-serif;
 }
 
-header {
+header,
+footer {
     background-color: #F8E475;
 }
 
-.navbar a {
+.navbar a,
+.navbar a i {
     color: #333333;
     text-decoration: none;
 }
@@ -15,7 +17,8 @@ header {
     background-image: linear-gradient(#F8E475, #F4DD5B);
 }
 
-#saudacao h3 {
+#saudacao h3,
+#sobre h3 {
     font-size: 48px;
     font-weight: 300;
 }
@@ -27,7 +30,8 @@ header {
 
 #descricao h1,
 #projetos h1,
-#artigos h1 {
+#artigos h1,
+#sobre h1 {
     font-size: 72px;
     font-weight: 900;
 }
@@ -88,4 +92,30 @@ header {
 #artigos .card .card-footer {
     background-color: #fff;
     border-top: none;;
+}
+
+#sobre p {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#sobre p span {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#sobre li {
+    font-size: 24px;
+    font-family: Lato;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+#skills p {
+    font-size: 24px;
+    font-weight: 300;
+    white-space: nowrap;
+    background-color: #EEEEEE;
+    margin-right: 48px;
+    text-transform: uppercase;
 }
