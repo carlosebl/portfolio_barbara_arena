@@ -18,7 +18,9 @@ footer {
 }
 
 #saudacao h3,
-#sobre h3 {
+#sobre h3,
+#descricao h3,
+#personas h3 {
     font-size: 48px;
     font-weight: 300;
 }
@@ -31,7 +33,10 @@ footer {
 #descricao h1,
 #projetos h1,
 #artigos h1,
-#sobre h1 {
+#sobre h1,
+#problema h1,
+#benchmarking h1,
+#personas h1 {
     font-size: 72px;
     font-weight: 900;
 }
@@ -118,4 +123,58 @@ footer {
     background-color: #EEEEEE;
     margin-right: 48px;
     text-transform: uppercase;
+}
+
+#personas .card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px #333333;
+}
+
+@media (max-width: 767px) {
+    #saudacao h3,
+    #sobre h3,
+    #descricao h3,
+    #personas h3 {
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    #saudacao img {
+        width: 32px;
+        height: 32px;
+    }
+
+    #descricao h1,
+    #projetos h1,
+    #artigos h1,
+    #sobre h1,
+    #problema h1,
+    #benchmarking h1,
+    #personas h1 {
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+    #descricao h2 {
+        font-size: 36px;
+        font-weight: 300;
+    }
+
+    #coraçoes {
+        display: none;
+    }
+
+    #benchmarking img,
+    #personas img {
+        max-width: 90vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1023px) {
+    #benchmarking img,
+    #personas img {
+        max-width: 90vw;
+    }
+}
 }
