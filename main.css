@@ -21,7 +21,7 @@ footer {
 #sobre h3,
 #descricao h3,
 #personas h3,
-#processos h3 {
+#processo h3 {
     font-size: 48px;
     font-weight: 300;
 }
@@ -38,8 +38,10 @@ footer {
 #problema h1,
 #benchmarking h1,
 #personas h1,
-#processos h1,
-#resultados h1 {
+#processo h1,
+#resultados h1,
+#wireframes h1,
+#ui-design h1 {
     font-size: 72px;
     font-weight: 900;
 }
@@ -154,7 +156,8 @@ footer {
     #saudacao h3,
     #sobre h3,
     #descricao h3,
-    #personas h3 {
+    #personas h3,
+    #processo h3 {
         font-size: 24px;
         font-weight: 300;
     }
@@ -170,7 +173,11 @@ footer {
     #sobre h1,
     #problema h1,
     #benchmarking h1,
-    #personas h1 {
+    #personas h1,
+    #processo h1,
+    #resultados h1,
+    #wireframes h1,
+    #ui-design h1 {
         font-size: 40px;
         font-weight: 900;
     }
@@ -185,7 +192,9 @@ footer {
     }
 
     #benchmarking img,
-    #personas img {
+    #personas img,
+    #wireframes img,
+    #ui-design img {
         max-width: 90vw;
     }
 
@@ -197,7 +206,13 @@ footer {
 
 @media (min-width: 768px) and (max-width:1023px) {
     #benchmarking img,
-    #personas img {
+    #personas img,
+    #wireframes img,
+    #ui-design img {
         max-width: 90vw;
+    }
+
+    .seta {
+        display: none;
     }
 }
